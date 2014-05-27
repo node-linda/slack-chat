@@ -1,4 +1,5 @@
 {
+  "private": "yes",
   "name": "linda-slack-chat",
   "version": "0.0.0",
   "description": "proxy slack.com",
@@ -12,5 +13,21 @@
     "linda"
   ],
   "author": "Sho Hashimoto <hashimoto@shokai.org>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "linda-socket.io": "^0.2.0",
+    "slackbot": "^0.0.1",
+    "socket.io-client": "^0.9.17"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/node-linda/slack-chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/node-linda/slack-chat/issues"
+  },
+  "homepage": "https://github.com/node-linda/slack-chat"
 }
