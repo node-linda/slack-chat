@@ -1,0 +1,10 @@
+{
+  "slack" : {
+    "team" : "masuilab",
+    "channel" : "#news"
+  },
+  "linda" : {
+    "url" : "http://node-linda-base.herokuapp.com",
+    "space" : "masuilab"
+  }
+}

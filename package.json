@@ -1,0 +1,16 @@
+{
+  "name": "linda-slack-chat",
+  "version": "0.0.0",
+  "description": "proxy slack.com",
+  "main": "linda-slack-chat.coffee",
+  "scripts": {
+    "start": "./node_modules/coffee-script/bin/coffee linda-slack-chat.coffee"
+  },
+  "keywords": [
+    "slack",
+    "chat",
+    "linda"
+  ],
+  "author": "Sho Hashimoto <hashimoto@shokai.org>",
+  "license": "MIT"
+}
