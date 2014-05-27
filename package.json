@@ -17,9 +17,7 @@
   "dependencies": {
     "linda-socket.io": "^0.2.0",
     "slackbot": "^0.0.1",
-    "socket.io-client": "^0.9.17"
-  },
-  "devDependencies": {
+    "socket.io-client": "^0.9.17",
     "coffee-script": "^1.7.1"
   },
   "repository": {
