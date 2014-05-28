@@ -15,9 +15,11 @@ ts = linda.tuplespace(config.linda.space)
 send = (msg, callback = ->) ->
   slack.send config.slack.channel, msg, callback
 
+linda.io.once 'connect', ->
+  send "linda-slack-chat start"
+
 linda.io.on 'connect', ->
   console.log "socket.io connect!!"
-  send "linda-slack-chat start"
 
   ts.watch {type: "slack", cmd: "post"}, (err, tuple) ->
     return if tuple.data.response?
