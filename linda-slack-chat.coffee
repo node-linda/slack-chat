@@ -6,7 +6,7 @@ console.log config
 Slackbot = require 'slackbot'
 slack = new Slackbot config.slack.team, process.env.SLACK_TOKEN
 
-LindaClient = require('linda-socket.io').Client
+LindaClient = require('linda').Client
 socket = require('socket.io-client').connect(config.linda.url)
 linda = new LindaClient().connect(socket)
 

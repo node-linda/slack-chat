@@ -15,9 +15,9 @@
   "author": "Sho Hashimoto <hashimoto@shokai.org>",
   "license": "MIT",
   "dependencies": {
-    "linda-socket.io": "^0.2.0",
+    "linda": "~>1.0",
     "slackbot": "^0.0.1",
-    "socket.io-client": "^0.9.17",
+    "socket.io-client": "~>1.0",
     "coffee-script": "^1.7.1"
   },
   "repository": {
